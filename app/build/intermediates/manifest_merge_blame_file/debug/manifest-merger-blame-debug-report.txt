@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.trackmylocation"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:9:5-79
+15-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:9:22-76
+16
+17    <!-- Include required permissions for Google Maps API to run. -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:17.0.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+19-->[com.google.android.gms:play-services-maps:17.0.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:24:22-64
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:11:5-43:19
+26        android:allowBackup="true"
+26-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:12:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:13:9-43
+30        android:label="@string/app_name"
+30-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:14:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:15:9-54
+32        android:supportsRtl="true"
+32-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:16:9-35
+33        android:theme="@style/AppTheme" >
+33-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:17:9-40
+34        <activity android:name="com.example.trackmylocation.permission" >
+34-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:18:9-25:20
+34-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:18:19-45
+35            <intent-filter>
+35-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:20:13-24:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:21:17-69
+36-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:21:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:23:17-77
+38-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:23:27-74
+39            </intent-filter>
+40        </activity>
+41        <!--
+42             The API key for Google Maps-based APIs is defined as a string resource.
+43             (See the file "res/values/google_maps_api.xml").
+44             Note that the API key is linked to the encryption key used to sign the APK.
+45             You need a different API key for each encryption key, including the release key that is used to
+46             sign the APK for publishing.
+47             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+48        -->
+49        <meta-data
+49-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:34:9-36:55
+50            android:name="com.google.android.geo.API_KEY"
+50-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:35:13-58
+51            android:value="@string/google_maps_key" />
+51-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:36:13-52
+52
+53        <activity
+53-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:38:9-42:20
+54            android:name="com.example.trackmylocation.MapsActivity"
+54-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:39:13-41
+55            android:label="tracker" >
+55-->/home/vishnu/AndroidStudioProjects/eyantraApp-master/TrackMyLocation/app/src/main/AndroidManifest.xml:40:13-36
+56        </activity>
+57        <!-- Needs to be explicitly declared on P+ -->
+58        <uses-library
+58-->[com.google.android.gms:play-services-maps:17.0.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+59            android:name="org.apache.http.legacy"
+59-->[com.google.android.gms:play-services-maps:17.0.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+60            android:required="false" />
+60-->[com.google.android.gms:play-services-maps:17.0.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+61
+62        <activity
+62-->[com.google.android.gms:play-services-base:17.0.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+63            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+63-->[com.google.android.gms:play-services-base:17.0.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+64            android:exported="false"
+64-->[com.google.android.gms:play-services-base:17.0.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+65            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+65-->[com.google.android.gms:play-services-base:17.0.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+66
+67        <meta-data
+67-->[com.google.android.gms:play-services-basement:17.0.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/b4e18ac666270286a794fae57c5a3128/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+68            android:name="com.google.android.gms.version"
+68-->[com.google.android.gms:play-services-basement:17.0.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/b4e18ac666270286a794fae57c5a3128/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+69            android:value="@integer/google_play_services_version" />
+69-->[com.google.android.gms:play-services-basement:17.0.0] /home/vishnu/.gradle/caches/transforms-2/files-2.1/b4e18ac666270286a794fae57c5a3128/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+70    </application>
+71
+72</manifest>
